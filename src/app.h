@@ -68,7 +68,7 @@ struct BinaryTree {
     using iterator = PreOrderIterator<T>;
 
     iterator begin() {
-        Node<T> *n = m_root;
+        Node<T> *n = m_root; 
 
         if(n)
             while(n->m_left)
